@@ -1,0 +1,268 @@
+* {
+	margin: 10px;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arimo', sans-serif;
+	background-color: #ECECEC;
+}
+
+/* top left logo */
+
+.logo {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.logo i {
+	font-size: 25px;
+	color: #CF7082;
+	margin: 20px 0px;
+}
+.logo a {
+	font-family: 'Lobster', cursive;
+	color: #444A5A;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* top right navbar */
+
+.navbar {
+	float: right;
+}
+.navbar ul {
+	list-style-type: none;
+}
+.navbar ul li {
+	display: inline-block;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #444A5A;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+hr {
+	clear: both;
+}
+
+.slogan {
+	display: block;
+	text-align: center;
+	margin: 60px 0;
+}
+
+.slogan h2 {
+	color: #444A5A;
+}
+
+.slogan h2 span {
+	color: #CF7082;
+}
+
+.slogan p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #444A5A;
+}
+
+/* image section */
+.image {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.image img {
+	border-radius: 2%;
+}
+
+/* about section */
+.aboutme {
+	float: left;
+	width: 50%;
+}
+
+.aboutme, .mywork {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.aboutme h2, .mywork h2 {
+	color: #CF7082;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 35px;
+}
+
+.aboutme p, .mywork p {
+	color: #444A5A;
+	font-size: 20px;
+	margin: 20px;
+}
+
+/* album box */
+
+.albumtop, .albumbottom {
+	padding: 0;
+	margin: 0 auto;
+	width: 87%;
+	text-align: left;
+}
+
+.box {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	border-radius: 8%;
+	margin: 10px 10px;
+}
+
+#spain {
+	background-image: url('../img/skyofspain.jpg');
+	background-size: 100%;
+}
+
+#bahrain {
+	background-image: url('../img/bahrain.jpg');
+	background-size: 100%;
+}
+
+#stripes {
+	background-image: url('../img/stripes.jpg');
+	background-size: 100%;
+}
+
+#lazydays {
+	background-image: url('../img/lazydays.jpg');
+	background-size: 100%;
+}
+
+#trapped {
+	background-image: url('../img/trapped.jpg');
+	background-size: 100%;
+}
+
+#quad {
+	background-image: url('../img/quadcore.jpg');
+	background-size: 100%;
+}
+
+#retro {
+	background-image: url('../img/retroblast.jpg');
+	background-size: 100%;
+}
+
+#gates {
+	background-image: url('../img/gateofthesun.jpg');
+	background-size: 100%;
+}
+
+#winter {
+	background-image: url('../img/wintertouch.jpg');
+	background-size: 100%;
+}
+
+#burn {
+	background-image: url('../img/burn.jpg');
+	background-size: 100%;
+}
+
+.box h3 {
+	background-color: #FFFFFF;
+	color: #444A5A;
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 5px;
+}
+
+.box p {
+	background-color: #FFFFFF;
+	color: #CF7082;
+	margin: 0 auto;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+/* last sentence */
+
+.thanks {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: #CF7082;
+	font-weight: normal;
+	margin: 40px auto;
+}
+
+/* footer form */
+
+footer {
+	background-color: #2D2D2D;
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	padding-top: 50px;
+}
+
+footer > form {
+	display: inline-block;
+	width: 50%;
+}
+
+label {
+	font-family: 'Lobster', cursive;
+	color: #CF7082;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+input {
+	width: 90%;
+	background-color: #D8D8D8;
+	height: 25px;
+	color: #2D2D2D;
+}
+
+#message{
+	height: 75px;
+}
+
+#button {
+	color: #EDEDED;
+	font-family: 'Arimo', sans-serif;
+	width: 10%;
+	border: none;
+	background-color: #2D2D2D;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+/* bottom right icon */
+
+footer > div {
+	float: right;
+}
+
+.fafaicon {
+	font-size: 25px;
+	color: #2D2D2D;
+	margin: 100px 30px 0 0;
+}
+
+.fafaicon i {
+	border: 1px solid #2D2D2D;
+	background-color: #CF7082;
+	margin: 0 5px;
+	height: 26px;
+	width: 30px;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 100%;
+}
